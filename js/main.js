@@ -47,13 +47,52 @@
 // * converting a strint to an array 
 
 // * 1
-let p = "Hello, What's up my dear friend?"
-console.log(p.split());
+// let p = "Hello, What's up my dear friend?"
+// console.log(p.split());
 
-// * 2
-let p1 = "Hello, What's up my dear friend?"
-console.log(p1.split(" "));
+//  * 2
+// let p1 = "Hello, What's up my dear friend?"
+// console.log(p1.split(" "));
 
-// * 3
-let p2 = "Hello, What's up my dear friend?"
-console.log(p.split(" ", 3));
+//  * 3
+// let p2 = "Hello, What's up my dear friend?"
+// console.log(p.split(" ", 3));
+
+// ? charAt() Method
+
+// // 1
+// let name = "Mustafa";
+// let result = name.charAt(0);
+
+// console.log(result);
+
+// // 2
+// let name1 = "Mustafa";
+// let result1 = name1.charAt(3);
+
+// console.log(result1);
+
+// // 3
+// let name2 = "Mustafa";
+// let result2 = name2.charAt(name2.length-1);
+
+// console.log(result2);
+
+
+//? Trim() Method
+
+let name1 = "Javascript";
+console.log(name1);
+console.log(name1.length);
+
+  
+let name2 = "        Javascript        ";
+console.log(name2);
+console.log(name2.length);
+
+// * Remove spaces with trim() method
+
+let name3 = "        Javascript        ";
+console.log(name3.trim());
+console.log(name3.length);
+
