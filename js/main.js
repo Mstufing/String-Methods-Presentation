@@ -81,18 +81,39 @@
 
 //? Trim() Method
 
-let name1 = "Javascript";
-console.log(name1);
-console.log(name1.length);
+// let name1 = "Javascript";
+// console.log(name1);
+// console.log(name1.length);
 
   
-let name2 = "        Javascript        ";
-console.log(name2);
-console.log(name2.length);
+// let name2 = "        Javascript        ";
+// console.log(name2);
+// console.log(name2.length);
 
-// * Remove spaces with trim() method
+// // * Remove spaces with trim() method
 
-let name3 = "        Javascript        ";
-console.log(name3.trim());
-console.log(name3.length);
+// let name3 = "        Javascript        ";
+// console.log(name3.trim());
+// console.log(name3.length);
 
+
+// ? toString() Method
+
+// let a = 100;
+// console.log(typeof a);
+
+// let str = a.toString();
+// console.log(typeof str);
+
+
+// ? includes() Method
+// 1
+let text = "Programming Languages: C++, C#, C, Java, JavaScript, Python etc.";
+let inc = text.includes("JavaScript");
+
+console.log(inc);
+// 1
+let text1 = "Programming Languages: C++, C#, C, Java, JavaScript, Python etc.";
+let inc1 = text.includes("GO");
+
+console.log(inc1);
