@@ -16,7 +16,15 @@
 
 // ? Replace() Method
 
-let text = "I'm learning C++";
-let result = text.replace("C++", "JavaScript");
+// let text = "I'm learning C++";
+// let result = text.replace("C++", "JavaScript");
+
+// console.log(result);
+
+
+// ? ReplaceAll() Method
+
+let text = "I'm learning C++. Learning C++ is so fun.";
+let result = text.replaceAll("C++", "JavaScript");
 
 console.log(result);
