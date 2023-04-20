@@ -24,7 +24,36 @@
 
 // ? toUpperCase() Method
 
-let text = "Helo Wolrd! Have a Good Day!";
-let result = text.toUpperCase();
+// let text = "Helo Wolrd! Have a Good Day!";
+// let result = text.toUpperCase();
 
-console.log(result);
+// console.log(result);
+
+
+
+// ? Concat() Method
+
+// let text1 = "Mustafa";
+// let text2 = "is learning";
+// let text3 = "JavaScript";
+// let text4 = "in SoftClub!";
+
+// let result = text1.concat(' ', text2, ' ', text3, ' ', text4);
+
+// console.log(result);
+
+// ? Split() Method
+
+// * converting a strint to an array 
+
+// * 1
+let p = "Hello, What's up my dear friend?"
+console.log(p.split());
+
+// * 2
+let p1 = "Hello, What's up my dear friend?"
+console.log(p1.split(" "));
+
+// * 3
+let p2 = "Hello, What's up my dear friend?"
+console.log(p.split(" ", 3));
