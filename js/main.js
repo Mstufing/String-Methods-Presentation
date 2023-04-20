@@ -22,9 +22,9 @@
 // console.log(result);
 
 
-// ? ReplaceAll() Method
+// ? toUpperCase() Method
 
-let text = "I'm learning C++. Learning C++ is so fun.";
-let result = text.replaceAll("C++", "JavaScript");
+let text = "Helo Wolrd! Have a Good Day!";
+let result = text.toUpperCase();
 
 console.log(result);
