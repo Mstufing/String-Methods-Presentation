@@ -122,18 +122,96 @@
 
 // ? at() Method
 
-// 1
-let str  ="JavaScript";
+// // 1
+// let str  ="JavaScript";
 
-console.log(str.at(0));
+// console.log(str.at(0));
 
-// 2
-let str2  ="JavaScript";
+// // 2
+// let str2  ="JavaScript";
 
-console.log(str2.at(4));
+// console.log(str2.at(4));
 
-// 3
-let str3  ="JavaScript";
+// // 3
+// let str3  ="JavaScript";
 
-console.log(str3.at(-1));
+// console.log(str3.at(-1));
 
+
+
+
+// ? Math.floor(), Math.ceil(), Math.round
+
+// // * floor
+// console.log("Floor :");
+// let a = 11.7;
+// let result = Math.floor(a);
+
+// console.log(result);
+
+// // * ceil
+// console.log("Ceil :");
+// let a1 = 101.1;
+// let result1 = Math.ceil(a1);
+
+// console.log(result1);
+
+// // * round
+// console.log("Round :");
+// let a2 = 16.5;
+// let result2 = Math.round(a2);
+
+// console.log(result2);
+
+
+
+// // ? Math.max() Method
+
+// let number = Math.max(15, -89, 57, 136, 0, 300, 21, 378, 85);
+
+// console.log(number);
+
+
+// ? Math.pow() Method
+
+// let number = Math.pow(5, 3); //  5 * 5 * 5;
+
+// console.log(number);
+
+
+// // ? Math.sqrt() Method
+
+// let number = Math.sqrt(25); // 25 => 5
+
+// console.log(number);
+
+
+
+// // ? Math.abs() Method
+
+// let number = Math.abs(-11); // -11 => 11
+
+// console.log(number);
+
+
+
+// // ? Math.random() Method
+
+// let number = Math.random() *10;
+
+// console.log(number);
+
+// let number1 = Math.random() *10;
+
+// console.log(number1);
+
+
+// ? isNaN() Method
+
+let num = "Number";
+console.log(typeof num);
+console.log(isNaN(num));
+
+let num1 = 15;
+console.log(typeof num1);
+console.log(isNaN(num1));
