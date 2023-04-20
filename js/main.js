@@ -108,12 +108,32 @@
 
 // ? includes() Method
 // 1
-let text = "Programming Languages: C++, C#, C, Java, JavaScript, Python etc.";
-let inc = text.includes("JavaScript");
+// let text = "Programming Languages: C++, C#, C, Java, JavaScript, Python etc.";
+// let inc = text.includes("JavaScript");
 
-console.log(inc);
+// console.log(inc);
+// // 1
+// let text1 = "Programming Languages: C++, C#, C, Java, JavaScript, Python etc.";
+// let inc1 = text.includes("GO");
+
+// console.log(inc1);
+
+
+
+// ? at() Method
+
 // 1
-let text1 = "Programming Languages: C++, C#, C, Java, JavaScript, Python etc.";
-let inc1 = text.includes("GO");
+let str  ="JavaScript";
 
-console.log(inc1);
+console.log(str.at(0));
+
+// 2
+let str2  ="JavaScript";
+
+console.log(str2.at(4));
+
+// 3
+let str3  ="JavaScript";
+
+console.log(str3.at(-1));
+
